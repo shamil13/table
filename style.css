@@ -1,0 +1,40 @@
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
+th, td {
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #00ffff;
+}
+
+th {
+    background-color: blueviolet;
+} 
+
+ td {
+    background-color: darkslateblue;
+}
+
+tr:last-child {
+    background-color: orchid;
+}
+
+tr:first-child {
+    background-color: rgb(112, 218, 144);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 230, 0);
+}
+
+td:nth-child(2n) {
+    color: red;
+}
+
+
+
